@@ -1,0 +1,20 @@
+html {
+  background-color: black;
+}
+body {
+  background-color: aliceblue;
+  width: 1000px;
+  padding: 50px;
+  margin: auto;
+}
+
+div {
+  border: 10px solid black;
+  border-radius: 3%;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}

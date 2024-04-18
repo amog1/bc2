@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Business Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Business Calculator</h1>
+    <hr />
+    <h2>STATETEMENT OF COMPREHENSIVE INCOME (PROFIT AND LOSS ACCOUNT)</h2>
+    <hr />
+    <div>
+      <h3>Revenue</h3>
+      <p>is the money the business receives from selling goods and services.</p>
+      <p><b>Revenue</b> = <input type="number" id="revenue" /></p>
+      <hr />
+      <h3>Cost of sales</h3>
+      <p>
+        Is the production costs of a business like raw materials,labouror
+        anything else that needs to covered.
+      </p>
+      <p><b>Cost of sales</b> = <input type="number" id="cost" /></p>
+      <hr />
+      <h3>Gross profit</h3>
+      <p>
+        is calculated when the costs of sales are subtracted from the revenue.
+      </p>
+      <img src="image/gross profit.png" alt="gross profit formula" />
+      <p>
+        <button id="grossprofit">Gross profit</button>=
+        <span id="profit">----</span>
+      </p>
+    </div>
+
+    <hr />
+    <div>
+      <h3>Administrative expenses</h3>
+      <p>
+        are the general overheads(ongoing business expenses not directly
+        attributed to creating a product or service) or any other expenses of
+        the business for example IT expenses.
+      </p>
+      <p>
+        <b>Administrative expenses</b> = <input type="number" id="expense1" />
+      </p>
+      <hr />
+      <h3>Other Operating expenses</h3>
+      <p>
+        Any expenses not included in administrative expenses above may called
+        other operation expenses.Examples: -irregular expenses such as
+        subscriptions -Stationary-Postages-Office supplies
+      </p>
+      <p>
+        <b>Other Operating expenses </b>= <input type="number" id="expense2" />
+      </p>
+      <hr />
+      <h3>Operating profit</h3>
+      <p>
+        This is the difference between gross profit and other operating
+        expenses.
+      </p>
+      <img src="image/operating profit.png" alt="operating profit" />
+      <p>
+        <button id="operatingprofit">Operating profit</button> =
+        <span id="OProfit">-----</span>
+      </p>
+    </div>
+
+    <hr />
+    <div>
+      <h3>Finance Cost</h3>
+      <p>Intrest paid by the business to the bank on borrowed money.</p>
+      <p><b>finance Cost</b> = <input type="number" id="financecost" /></p>
+      <hr />
+      <h3>Finance Income</h3>
+      <p>Intrests the business gets from the money saved in the bank.</p>
+      <p><b>finance Income</b> = <input type="number" id="financeincome" /></p>
+      <hr />
+
+      <h3>Profit of the year (net profit)</h3>
+      <p>
+        The cost of finance is subtracted from the operating profit to get the
+        <b>Profit of the year </b>
+      </p>
+      <p>
+        <button id="profitbeforetax">
+          Profit of the year <b>before tax</b>
+        </button>
+        =
+        <span id="pretax">------</span>
+      </p>
+      <hr />
+
+      <h3>Profit of the year after tax</h3>
+      <p>
+        Is the amount of money that is left after all expenses including
+        taxation have been deducted from the profit of the year.
+      </p>
+
+      <p><b>Tax</b> = <input type="number" id="tax" /></p>
+      <p>
+        <button id="profitaftertax">Profit of the year <b>after tax</b></button>
+        = <span id="aftertax">----</span>
+      </p>
+    </div>
+
+    <hr />
+  </body>
+</html>
